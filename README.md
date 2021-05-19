@@ -1,0 +1,2 @@
+# zshrc
+making our zshrc

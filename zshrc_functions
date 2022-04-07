@@ -1,0 +1,59 @@
+# functions
+
+	# brew reinstall nmaahcmm
+function nmaahcmm () {
+	brew reinstall nmaahcmm
+}
+
+# functions
+	# brew reinstall bashrc
+function nmaahcbashrc () {
+	brew reinstall bashrc
+}
+
+	# make directories named after files
+function makedirfile () {
+	for file in *.*; do
+    mkdir -p "${file%.*}";
+done
+}
+
+	# rsync transfer for DAMS uploads
+function rsyncDAMS () {
+	rsync -avvPhi --no-p --stats "${@}"
+}
+
+	# general rsync transfer
+function rsyncT () {
+	rsync -avvPhi --stats "${@}"
+}
+
+	# general rsync transfer with deletion of source files
+function rsyncD () {
+	rsync -avvPhi --remove-source-files --stats "${@}"
+}
+
+	# remove hidden files from a location
+function removehidden () {
+	if [ -z "${1}" ] ; then
+		cowsay "no argument provided. tootles."
+	else
+		find "${1}" -name ".*" -exec rm -vfr {} \;
+		cowsay "hidden files removed. tootles."
+	fi
+}
+
+	# sort text in a file by column 2 and overwrite file ; column separator is a space.
+function sortk2 () {
+	if [ -z "${1}" ]; then
+		cowsay "no argument provided. tootles."
+	else
+		sort -k 2 -o "${1}" "${1}"
+		cowsay "file sorting is done. tootles."
+	fi
+}
+
+function shortinfo() {
+   mediainfo --Inform="General;FileName=%FileNameExtension%\nFileSize=%FileSize%\nDuration=%Duration%" "${@}";
+   mediainfo --Inform="Video;Resolution=Codec=%CodecID%" "${@}";
+}

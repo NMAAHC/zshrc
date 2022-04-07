@@ -1,3 +1,1 @@
-# zshrc
-making our zshrc
-making it and making it and making it well
+Installation instructions for custom NMAAHC zshrc and associated files.

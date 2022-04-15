@@ -1,0 +1,21 @@
+# new aliases
+
+alias -g ll="ls -lahG"
+alias -g ls='ls -1'
+alias -g home='cd ~'
+alias -g up='cd ..'
+alias -g h='history'
+
+# command option aliases
+alias -g mv='mv -iv'
+alias -g cp='cp -iv'
+alias -g rm='rm -iv'
+alias -g df='df -h'
+alias -g du='du -h'
+alias -g mkdir='mkdir -p'
+alias -g diffy='diff -y --suppress-common-lines --width=250'
+alias -g showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias -g hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias -g brewUp='brew update && brew upgrade && brew doctor'
+alias -g treeL='tree -RapugD --si --du'
+alias -g gpa='git-pull-all'

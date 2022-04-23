@@ -1,8 +1,8 @@
-Installation instructions for custom NMAAHC zshrc and associated files.
+# Installation instructions for custom NMAAHC zshrc and associated files.
 
-Create the following directories
+1. Create the following directories
 
-$HOME/github & $HOME/github/nmaahc
+`$HOME/github & $HOME/github/nmaahc`
 
 easy one liner in terminal mkdir -p $HOME/github/nmaahc
 

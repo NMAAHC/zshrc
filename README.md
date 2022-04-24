@@ -38,6 +38,16 @@
     - ex. If you create a folder called myrepo on desktop, then the path in your .zshenv file should be: `$HOME/Desktop/myrepo/`
 
 6. Restart your CLI and everything should work. You will now have all of the alias and funcions in the zshrc_alias and zshrc_functions files at your disposal
-    - typing `ll` in the terminal will alias to ls -a
+    - example: 
+        - typing `ll` in the terminal will alias to `ls -lahG` 
+        - typing `treeL` in the terminal will alias to `tree -RapugD --si --du`
+        - typing `rsyncDAMS` will call the funciton `rsync -avvPhi --no-p --stats "${@}"`
+    - for more examples look at the zshrc_alias and zshrc_functions files. You can also add you own alias or functions!
 
-[![this is what your terminal will look like!](/NMAAHC/zshrc/blob/main/terminal.png "terminal")](https://raw.githubusercontent.com/NMAAHC/zshrc/main/terminal.png)
+Your terminal will now look like this, but with `medialab` replaced by your user name:
+
+![this is what your terminal will look like!](https://raw.githubusercontent.com/NMAAHC/zshrc/main/terminal.png)
+
+If you are having issues type `ls -lahG ~` and check to see that your the symlinks for the zsh files have been created:
+
+![this is what your the zsh symlinks shoudl look like!](https://raw.githubusercontent.com/NMAAHC/zshrc/main/zsh_symlinks.png)

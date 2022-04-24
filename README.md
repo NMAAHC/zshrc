@@ -40,4 +40,4 @@
 6. Restart your CLI and everything should work. You will now have all of the alias and funcions in the zshrc_alias and zshrc_functions files at your disposal
     - typing `ll` in the terminal will alias to ls -a
 
-[![this is what your terminal will look like!](/NMAAHC/zshrc/blob/main/terminal.png "terminal")](https://github.com/NMAAHC/zshrc/blob/main/terminal.png)
+[![this is what your terminal will look like!](/NMAAHC/zshrc/blob/main/terminal.png "terminal")](https://raw.githubusercontent.com/NMAAHC/zshrc/blob/main/terminal.png)

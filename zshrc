@@ -1,4 +1,4 @@
-MYNAME='NMAAHC Media Conservation'
+MYNAME='NMAAHC Media Archives & Conservation'
 export MYNAME
 
 # ls colors

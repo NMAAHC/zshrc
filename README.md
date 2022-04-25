@@ -17,9 +17,9 @@
 
 4.  Check to see that zsh is your default shell:
      - type `echo $0` in the terminal, the result should say `-zsh`
-     - if it does not, type `cat /etc/shells` and look for the zsh shell - is will be `/bin/zsh`
+     - if it does not, type `cat /etc/shells` and look for the zsh shell - it will be `/bin/zsh`
      - type `chsh -s /bin/zsh` in the terminal, it will ask for you password
-     - restart the termianl and type `echo $0` and it shoudl display `-zsh`
+     - restart the termianl and type `echo $0` and it should display `-zsh`
 
 5.  Open `~/.zshenv` in an editor
 

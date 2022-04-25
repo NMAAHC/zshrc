@@ -21,6 +21,7 @@
      - type `chsh -s /bin/zsh` in the terminal, it will ask for you password
      - restart the termianl and type `echo $0` and it should display `-zsh`
 
+
 5.  Open `~/.zshenv` in an editor
 
     - (If you don't have .zshenv file installed, create one by typing in terminal: touch ~/.zshenv)
@@ -42,6 +43,7 @@
 - NOTE: This presumes a folder named "nmaahc". One could, of course, clone this repo to a directory of one's choosing and change `$HOME/github/nmaahc/` to the path of the directory.
 
     - ex. If you create a folder called myrepo on desktop, then the path in your .zshenv file should be: `$HOME/Desktop/myrepo/`
+    
 
 7. Restart your CLI and everything should work. You will now have all of the alias and funcions in the zshrc_alias and zshrc_functions files at your disposal
     - example: 

@@ -45,7 +45,7 @@
     - ex. If you create a folder called myrepo on desktop, then the path in your .zshenv file should be: `$HOME/Desktop/myrepo/`
     
 
-7. Restart your CLI and type echo $PATH
+7. Restart your CLI and type `echo $PATH`
     - the output should be  `~/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin`
 
 8. Now everything should work. You will now have all of the alias and funcions in the zshrc_alias and zshrc_functions files at your disposal

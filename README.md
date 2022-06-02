@@ -22,12 +22,12 @@
      - restart the termianl and type `echo $0` and it should display `-zsh`
 
 
-5.  Open `~/.zshenv` in an editor
+5.  Open `~/.zprofile` in an editor
 
-    - (If you don't have .zshenv file installed, create one by typing in terminal: touch ~/.zshenv)
+    - (If you don't have .zprofile file installed, create one by typing in terminal: touch ~/.zprofile)
 
 
-6. past the following into the .zshevn:
+6. past the following into the .zprofile:
 
 
     ```

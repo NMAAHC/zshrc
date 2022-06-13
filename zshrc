@@ -37,3 +37,5 @@ export HISTFILESIZE=1000000
 export HISTTIMEFORMAT='%b %d %I:%M %p ' # using strftime format
 export HISTCONTROL=ignoreboth # ignoreups:ignorespace
 export HISTIGNORE="history:pwd:exit:df:ls:ls -la:ll"
+
+setopt extended_glob

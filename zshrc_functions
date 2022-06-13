@@ -7,8 +7,8 @@ function nmaahcmm () {
 
 # functions
 	# brew reinstall bashrc
-function nmaahcbashrc () {
-	brew reinstall bashrc
+function nmaahczshrc () {
+	brew reinstall zshrc
 }
 
 	# make directories named after files
@@ -54,6 +54,6 @@ function sortk2 () {
 }
 
 function shortinfo() {
-   mediainfo --Inform="General;FileName=%FileNameExtension%\nFileSize=%FileSize%\nDuration=%Duration%" "${@}";
-   mediainfo --Inform="Video;Resolution=Codec=%CodecID%" "${@}";
+   mediainfo --Inform="General;FileName=%FileNameExtension%,FileSize=%FileSize%,Duration(ms),%Duration%\n" "${@}";
+   mediainfo --Inform="Video;Width=%Width%,Height=%Height%,Codec=%CodecID%\n" "${@}";
 }

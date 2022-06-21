@@ -18,5 +18,6 @@ alias -g showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killa
 alias -g hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias -g brewUp='brew update && brew upgrade && brew doctor && brew cleanup'
 alias -g treeL='tree -RapugD --si --du'
-alias -g gpa='git-pull-all'
+alias -g ga="git add --all"
+alias -g gc="gid commit --all"
 alias -g text='open -a textedit'

@@ -19,6 +19,4 @@ alias -g hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killal
 alias -g brewUp='brew update && brew upgrade && brew doctor && brew cleanup'
 alias -g treeL='tree -RapugD --si --du'
 alias -g gpa='git-pull-all'
-alias -g ga='git add --all'
-alias -g gc='git commit --all'
 alias -g text='open -a textedit'

@@ -20,6 +20,6 @@ alias -g brewUp='brew update && brew upgrade && brew doctor && brew cleanup'
 alias -g treeL='tree -RapugD --si --du'
 alias -g ga="git add --all"
 alias -g gc="git commit --all"
-alias -g gs="git status"
+alias -g gst="git status"
 alias -g text='open -a textedit'
 alias -g code='open -a Visual\ Studio\ Code'

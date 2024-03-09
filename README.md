@@ -24,13 +24,13 @@
 
 5.  Open `~/.zprofile` in an editor
 
-    - (If you don't have .zprofile file installed, create one by typing in terminal: touch ~/.zprofile)
+    - (If you don't have .zprofile file installed, create one by typing in terminal: `touch ~/.zprofile`)
 
 
 6. past the following into the .zprofile:
 
 
-    ```
+   ```
     # default OS X PATH: /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
     export PATH="~/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin"
 
@@ -39,10 +39,11 @@
     ln -sfn $HOME/github/nmaahc/zshrc/zshrc $HOME/.zshrc
     ln -sfn $HOME/github/nmaahc/zshrc/zshrc_alias $HOME/.zshrc_alias
     ln -sfn $HOME/github/nmaahc/zshrc/zshrc_functions $HOME/.zshrc_functions
+   ```
 
 - NOTE: This presumes a folder named "nmaahc". One could, of course, clone this repo to a directory of one's choosing and change `$HOME/github/nmaahc/` to the path of the directory.
 
-    - ex. If you create a folder called myrepo on desktop, then the path in your .zshenv file should be: `$HOME/Desktop/myrepo/`
+    - ex. If you create a folder called `myrepo` on desktop, then the path in your `.zprofile` file should be: `$HOME/Desktop/myrepo/`
     
 
 7. Restart your CLI and type `echo $PATH`
@@ -59,6 +60,6 @@ Your terminal will now look like this, but with `medialab` replaced by your user
 
 ![this is what your terminal will look like!](https://raw.githubusercontent.com/NMAAHC/zshrc/main/terminal.png)
 
-If you are having issues type `ls -lahG ~` and check to see that your the symlinks for the zsh files have been created:
+If you are having issues type `ls -lahG ~` and check to see that the symlinks for the zsh files have been created:
 
 ![this is what your the zsh symlinks shoudl look like!](https://raw.githubusercontent.com/NMAAHC/zshrc/main/zsh_symlinks.png)

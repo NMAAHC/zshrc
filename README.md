@@ -24,7 +24,7 @@
 
 5.  Open `~/.zprofile` in an editor
 
-    - (If you don't have .zprofile file installed, create one by typing in terminal: `touch ~/.zprofile`)
+    - (If you don't have a `.zprofile` file, simply create one by typing in terminal: `touch ~/.zprofile`)
 
 
 6. past the following into the .zprofile:

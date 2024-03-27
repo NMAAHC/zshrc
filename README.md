@@ -46,7 +46,7 @@
     
 
 7. Restart your CLI and type `echo $PATH`
-    - the output should be  `~/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin`
+    - the output should be  `/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin`
 
 8. Now everything should work. You will now have all of the alias and funcions in the zshrc_alias and zshrc_functions files at your disposal
     - example: 

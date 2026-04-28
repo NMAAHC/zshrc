@@ -1,4 +1,4 @@
-MYNAME='NMAAHC Media Archives & Conservation'
+MYNAME='NMAAHC Time-based Media Preservation'
 export MYNAME
 
 # ls colors
@@ -18,7 +18,8 @@ source ~/.zshrc_functions
 fi
 
 echo " "
-echo $fg[blue]${bold}Hello ${MYNAME}!
+echo $fg[yellow]${bold}Welcome to ${MYNAME}!
+echo $fg[blue]The Home of 'TBM Archives, Conservation & Restoration'
 echo $fg[white]Be All That You Can Be Today!
 echo $fg[red]Let\'s Go!
 

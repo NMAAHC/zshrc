@@ -32,11 +32,16 @@ export EDITOR="code -w"
 export VISUAL="$EDITOR"
 
 # history modifications
-export HISTSIZE=1000 #500 is default
-export HISTFILESIZE=1000000
-export HISTTIMEFORMAT='%b %d %I:%M %p ' # using strftime format
-export HISTCONTROL=ignoreboth # ignoreups:ignorespace
-export HISTIGNORE="history:pwd:exit:df:ls:ls -la:ll"
+export HISTFILE=~/.zsh_history
+export HISTSIZE=50000
+export SAVEHIST=100000
+setopt EXTENDED_HISTORY          # timestamp each entry
+setopt SHARE_HISTORY             # flush+reload every prompt so concurrent shells share history
+setopt HIST_IGNORE_DUPS          # skip duplicate consecutive commands
+setopt HIST_IGNORE_SPACE         # skip commands starting with a space
+setopt HIST_REDUCE_BLANKS        # trim extra whitespace
+setopt HIST_VERIFY               # show expanded !! before running
+export HISTORY_IGNORE="(history|pwd|exit|df|ls|ls -la|ll)"
 
 setopt extended_glob
 
@@ -56,3 +61,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"

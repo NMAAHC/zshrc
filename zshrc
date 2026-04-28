@@ -19,7 +19,7 @@ fi
 
 echo " "
 echo $fg[yellow]${bold}Welcome to ${MYNAME}!
-echo $fg[blue]The Home of 'TBM Archives, Conservation & Restoration'
+echo $fg[blue]The Home of 'TBM Archiving, Conservation & Restoration'
 echo $fg[white]Be All That You Can Be Today!
 echo $fg[red]Let\'s Go!
 

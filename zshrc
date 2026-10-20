@@ -45,6 +45,7 @@ setopt HIST_VERIFY               # show expanded !! before running
 export HISTORY_IGNORE="(history|pwd|exit|df|ls|ls -la|ll)"
 
 setopt extended_glob
+setopt INTERACTIVE_COMMENTS      # treat # as a comment in typed/pasted commands, like bash
 
 
 # >>> conda initialize >>>
